@@ -1,0 +1,96 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #d0c6b2;
+  }
+  
+  h1 {
+    color: #865f3c;
+    margin-top: 40px;
+    font-weight: 300;
+  }
+  
+  h2 {
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #906666;
+  }
+  
+  /*************/
+  /*    FORM   */
+  /*************/
+  
+  .form {
+    display: flex;
+  }
+  
+  .select-control {
+    background: #e2ddd1;
+    border: 1px solid #d49999;
+    width: 250px;
+    font-size: 12px;
+  }
+  .select-control:focus {
+    border: 1px solid #d49999;
+  }
+  
+  .form label {
+    /* font-weight: 400; */
+    padding-top: 5px;
+    color: #8e7060;
+    margin-right: 15px;
+  }
+
+  .button,
+  .button:active {
+    margin-left: 15px;
+    padding-left: 8px;
+    text-align: center;
+    color: #333 !important;
+    cursor: pointer;
+    outline: none;
+  }
+  .button:hover,
+  .button:active,
+  .button:focus {
+    border: 0px !important;
+    color: #8e7060 !important;
+    text-decoration: none;
+    outline: none;
+  }
+  .form-inline button .glyphicon {
+    margin-right: 5px;
+  }
+  
+  /***************/
+  /*  BAR CHART  */
+  /***************/
+  
+  .bar {
+    fill: #8e7060;
+  }
+  
+  .bar:hover {
+    fill: rgb(90, 69, 58);
+  }
+  
+  .axis {
+    font: 10px sans-serif;
+    fill: #333;
+  }
+  
+  .axis-title {
+    fill: #9c8b83;
+    font-size: 11px;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #333;
+    shape-rendering: crispEdges;
+  }
+  
+  .x-axis {
+    font-size: 12px;
+  }
